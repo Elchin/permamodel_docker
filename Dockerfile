@@ -11,6 +11,6 @@ RUN  apt-get -q update && \
 
 RUN  curl https://repo.continuum.io/miniconda/Miniconda2-latest-Linux-x86_64.sh -o miniconda.sh
 
-ENV EXAMPLE
+ENV EXAMPLE foo
 
 CMD ['start.sh']
