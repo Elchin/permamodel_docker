@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-docker build  .
+docker build --rm -t permamodel .
