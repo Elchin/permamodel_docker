@@ -10,7 +10,7 @@ Docker container for permamodel project
 
   * Silent guy
 
-* **[Scott Stuward](https://github.com/sc0tts)**
+* **[Scott Stewart](https://github.com/sc0tts)**
 
   * Loud guy
 
