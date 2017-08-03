@@ -1,16 +1,15 @@
 FROM ubuntu:16.04
 MAINTAINER elchin.jafarov@gmail.com
 
-ARG PLEX_PASS='false'
-ARG PLEX_TOKEN=''
-
-#RUN git clone <the model code>
-RUN  apt-get -q update && \
-  apt-get -qy dist-upgrade && \
-  apt-get install -qy curl
-
+RUN  apt -q update && \
+  apt -qy dist-upgrade 
+RUN apt install -qy curl git
 RUN  curl https://repo.continuum.io/miniconda/Miniconda2-latest-Linux-x86_64.sh -o miniconda.sh
+#RUN git clone <the model code>
 
 ENV EXAMPLE foo
 
-CMD ['start.sh']
+ADD ./start.sh /start.sh
+RUN chmod u+x /start.sh
+
+CMD ["/start.sh"]
