@@ -15,4 +15,4 @@ RUN chmod u+x /start.sh
 # build info
 RUN echo "Timestamp:" `date --utc` | tee /image-build-info.txt
 
-# CMD ["/start.sh"]
+CMD ["/start.sh"]

@@ -1,2 +1,4 @@
 #!/bin/bash
-sleep 25
+echo "hello"
+sleep 5
+echo "bye"
