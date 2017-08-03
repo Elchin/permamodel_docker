@@ -4,8 +4,11 @@ MAINTAINER elchin.jafarov@gmail.com
 RUN  apt-get -q update && \
   apt-get -qy dist-upgrade 
 RUN apt-get install -qy curl git
-#RUN curl https://repo.continuum.io/miniconda/Miniconda2-latest-Linux-x86_64.sh -o miniconda.sh
-#RUN git clone <the model code>
+RUN apt-get install -qy vim
+RUN apt-get install -y cmake
+RUN apt-get install -y gfortran
+RUN apt-get install -y build-essential
+RUN git clone https://github.com/permamodel/permamodel.git
 
 ENV EXAMPLE foo
 
