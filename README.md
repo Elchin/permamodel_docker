@@ -4,17 +4,20 @@ Docker container for permamodel project
 # contributors
 * **[Elchin Jafarov](https://github.com/Elchin)**
 
-  * Cool guy
+  * GIPL model developer
 
 * **[Kang Wang](https://github.com/wk1984)**
 
-  * Silent guy
+  * Kumodel developer
 
 * **[Scott Stewart](https://github.com/sc0tts)**
 
-  * Loud guy
+  * Frostnumber model deveoper
 
 * **[Dayne Broderson](https://github.com/dayne)**
 
-  * Docker guy
+  * External expert
 
+* **[Mark Piper](https://github.com/mdpiper)**
+
+  * Permamodel Project architect
